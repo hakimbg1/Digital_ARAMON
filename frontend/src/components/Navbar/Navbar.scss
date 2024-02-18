@@ -1,0 +1,88 @@
+.logout-icon {
+  color: #ffffff !important;
+}
+
+.nav-bar {
+  text-align: center;
+
+  a {
+    font-weight: 500;
+    font-size: 20px !important;
+    text-decoration: none;
+    color: #afafaf;
+    margin-left: 20px;
+    padding: 10px 0;
+  }
+
+  a:hover {
+    color: #f1f1f1;
+    transition: 0.6s all;
+  }
+
+  .nav-heading:hover {
+    cursor: pointer;
+  }
+
+  .active {
+    color: #ffffff;
+  }
+}
+
+.support-icon {
+  margin-right: 5px; /* Adjust this margin as needed */
+}
+
+.nav-bar {
+  .nav-heading {
+    font-size: 1.5rem;
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .nav-links {
+    .nav-link {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 15px;
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .menu-icon {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 992px) {
+    .nav-links {
+      display: none;
+    }
+  }
+
+  @media (min-width: 993px) {
+    .menu-menu {
+      display: none !important;
+    }
+  }
+}
+
+.menu-menu {
+ margin-right: 10px;
+}
+
+.offcanvas-body {
+  .nav-link {
+    color: #000 !important;
+    text-decoration: none !important;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  .offcanvas {
+    max-width: 20%;
+  }
+}

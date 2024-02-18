@@ -1,0 +1,70 @@
+.url-cell {
+    position: relative;
+    max-width: 300px; /* Adjust the width as needed */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .truncated-url {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  
+  .truncated-url:hover {
+    text-decoration: underline;
+  }
+  
+/* StoredUrls.scss */
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 150px; /* Adjust the height */
+  }
+
+  .card-body {
+    padding: 0.5rem; /* Adjust the padding */
+  }
+
+  .card-title {
+    font-size: 1rem; /* Adjust the font size */
+    margin-bottom: 0.25rem; /* Adjust the margin */
+  }
+
+  .card-text {
+    color: #555;
+    font-size: 0.85rem; /* Adjust the font size */
+  }
+
+  .truncated-url {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #888;
+    font-size: 0.75rem; /* Adjust the font size */
+  }
+
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-size: 0.85rem; /* Adjust the font size */
+    padding: 0.25rem 0.5rem; /* Adjust the padding */
+  }
+}
